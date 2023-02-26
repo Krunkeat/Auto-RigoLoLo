@@ -1,5 +1,6 @@
 # Auto-RigoLoLo
-Auto-Rig Maya
+simple Biped Auto-Rig for Maya 
+
 
 Support: Create Control, Add Group, Create Limb tool(Biped), Create Reverse Foot n Loc,
         Create Switcher, Mirror Reverse Foot Loc, Create Parent Space, Spine( adaptative jnt), Create Ribbons
