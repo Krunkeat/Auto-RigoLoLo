@@ -1,5 +1,5 @@
 # Auto-RigoLoLo
-simple Biped Auto-Rig for Maya 
+###### simple Biped Auto-Rig for Maya 
 
 
 Support: Create Control, Add Group, Create Limb tool(Biped), Create Reverse Foot n Loc,
@@ -17,18 +17,18 @@ To add: color ctrl palette
 
 To run in maya : 
 
-import Auto_RigoLoLo
-importlib.reload(Auto_RigoLoLo)
+        import Auto_RigoLoLo
+        importlib.reload(Auto_RigoLoLo)
 
-if __name__ == "__main__":
-        try:
-            ui.deleteLater()
-        except:
-            pass
-        ui = Auto_RigoLoLo.AutoRigOLolo()
+        if __name__ == "__main__":
+                try:
+                    ui.deleteLater()
+                except:
+                    pass
+                ui = Auto_RigoLoLo.AutoRigOLolo()
 
-        try:
-            ui.show()
-        except:
-            ui.deleteLater()
+                try:
+                    ui.show()
+                except:
+                    ui.deleteLater()
 
