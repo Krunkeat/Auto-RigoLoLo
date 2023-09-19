@@ -18,6 +18,7 @@ To add: color ctrl palette
 To run in maya : 
 
         import Auto_RigoLoLo
+        import imporlib
         importlib.reload(Auto_RigoLoLo)
 
         if __name__ == "__main__":
